@@ -1,0 +1,14 @@
+package com.erev.Survey19.DaoImpl;
+
+import com.erev.Survey19.Dao.SurveyDao;
+import com.erev.Survey19.Model.SurveyModel;
+
+public class SurveyDaoImpl implements SurveyDao{
+
+	public void addPeople(SurveyModel sm) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+
+}

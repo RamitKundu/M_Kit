@@ -1,0 +1,7 @@
+package com.erev.Survey19.DaoImpl;
+
+import com.erev.Survey19.Dao.SurveyDao;
+
+public class SurveyDaoImpl implements SurveyDao{
+
+}

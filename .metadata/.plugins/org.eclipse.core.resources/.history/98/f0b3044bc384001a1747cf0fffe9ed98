@@ -1,0 +1,5 @@
+package com.erev.Survey19.Dao;
+
+public interface SurveyDao {
+
+}

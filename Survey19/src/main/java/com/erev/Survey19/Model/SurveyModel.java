@@ -1,12 +1,30 @@
 package com.erev.Survey19.Model;
 
-public class SurveyModel {
 
-		
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity
+public class SurveyModel {       
+
+		@Id
+	    @GeneratedValue(strategy=GenerationType.AUTO)
+		private int surveyId;
 		private String name;
 		private String address;
 		private int age;
 		private String problemFaced;
+		
+		
+		   public int getSurveyId() {
+				return surveyId;
+			}
+			public void setSurveyId(int surveyId) {
+				this.surveyId = surveyId;
+			}
+		
 		public String getName() {
 			return name;
 		}
