@@ -1,6 +1,7 @@
 package com.erev.Survey19.DaoImpl;
 
 import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -11,7 +12,7 @@ import com.erev.Survey19.Model.SurveyModel;
 @Repository
 @Transactional
 public class SurveyDaoImpl implements SurveyDao{
-	
+	@Autowired
 	private SessionFactory sessionFactory;
 
 	public void addPeople(SurveyModel sm) {
