@@ -28,7 +28,7 @@ public class ApplicationContextConfig {
 		dataSource.setDriverClassName("oracle.jdbc.driver.OracleDriver");
 		dataSource.setUrl("jdbc:oracle:thin:@localhost:1521/XE");
 
-		dataSource.setUsername("RAMIT"); // Schema name
+		dataSource.setUsername("SURVEY19"); // Schema name
 		dataSource.setPassword("1234");
 		return dataSource;
 	}
